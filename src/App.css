@@ -1,0 +1,107 @@
+.app-container{
+    background-color: coral;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .OuterContainer{
+    position: relative;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+  }
+  .mainContainer{
+    width: 1440px;
+    height: 900px;
+    background: linear-gradient(141.1deg, #0D8772 12.16%, #0D594C 78.48%);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .logoImg{
+    height: 33px;
+    width: 33px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 160px;
+    top: 25px;
+    border-radius: 0px;
+    background: #264A4A;
+  
+  }
+  .imageDiv{
+    position: absolute;
+    height: 694.060546875px;
+    width: 63px;
+    left: 1298px;
+    top: 116.46875px;
+    border-radius: 0px;
+    /* background: url(Main Image B-02); */
+  transform: matrix(-1, 0, 0, 1, 0, 0)
+  }
+  .imageDiv img{
+    width: 200px;
+    object-fit: contain;
+  }
+  .img{
+    height: 835px;
+    width: 63px;
+    left: 699px;
+    top: 69px;
+    border-radius: 0px;
+    background-color: (0, 255, 209, 0.2)
+  
+  }
+  .innerDiv{
+    height: 12px;
+    width: 12px;
+    left: 1268px;
+    top: 43px;
+    border-radius: 0px;
+    fill: Solid#264A4A
+  }
+  .textDiv{
+    height: 121px;
+    width: 549px;
+    position: absolute;
+    left: 159px;
+    top: 265px;
+    border-radius: 0;
+    font-family: Uni Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #FFFFFF;
+  }
+  .secondTextDiv{
+    height: 53px;
+    width: 549px;
+    position: absolute;
+    left: 159px;
+    top: 406px;
+    border-radius: 0;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #FFFFFF;
+  }
+  .smallDiv{
+    background-color: bisque;
+    height: 438px;
+    width: 357px;
+    left: 922px;
+    top: 1356px;
+    border-radius: 5px;
+  
+  }
